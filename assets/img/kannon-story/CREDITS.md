@@ -1,0 +1,2 @@
+hibo.webp — Kanō Hōgai, Hibo Kannon, 1888, Tokyo University of the Arts. Public domain. https://commons.wikimedia.org/wiki/File:Kan%C5%8D_H%C5%8Dgai_-_Hibo_kannon_(Avalokitesvara_as_a_Merciful_Mother).jpg
+senju.webp NOT shipped: Commons file Thousand_armed_Kannon_Tosyodaiji.JPG tagged PD-Japan-oldphoto (1930, NEIRAKU-HAKKO-SYO) but categorized "Taken with Canon EOS 20D" (modern camera) — provenance unverified.
