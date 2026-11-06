@@ -3,3 +3,7 @@
 
 /* home-approved-marks-2026-11-05 */.arch .node img.logo-mark,.card.tile img.logo-mark{display:block;width:64px;height:64px;object-fit:contain;margin:0 auto var(--s3)}.arch .node.core img.logo-mark{width:72px;height:72px;margin:0 auto var(--s2)}.card.tile img.logo-mark{margin:0 0 var(--s3)}
 /* what-arch-class-cards: landscape cards fill the node; K9 symbol stays 64px */.arch .node picture.tile-card{display:block;width:100%}.arch .node picture.tile-card img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain;border-radius:4px;margin:0 0 12px}
+
+/* homepage asset tiles: N.O.L.A.N. lockup spans the row like the class cards */#what .arch .node.core{width:100%;max-width:none;justify-self:stretch;border:1px solid var(--line);margin-bottom:0}#what .arch .node.core::after{content:none}#what .arch .node.core picture.tile-card img{margin-bottom:0}
+
+/* five homepage mission tiles: three across, then two centered */.mission-grid{display:grid;gap:var(--s5);margin-bottom:var(--s5);grid-template-columns:repeat(6,1fr)}.mission-grid>.card{grid-column:span 2}.mission-grid>.card:nth-child(4){grid-column:2 / span 2}.mission-grid>.card:nth-child(5){grid-column:4 / span 2}@media(max-width:960px){.mission-grid{grid-template-columns:1fr 1fr}.mission-grid>.card,.mission-grid>.card:nth-child(4),.mission-grid>.card:nth-child(5){grid-column:auto}}@media(max-width:480px){.mission-grid{grid-template-columns:1fr}}
