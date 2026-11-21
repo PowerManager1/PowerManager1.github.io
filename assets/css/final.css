@@ -90,6 +90,7 @@ section.band{background:transparent;border:0;padding:64px 0}
 footer.site-footer{background:var(--night);color:var(--silver);font-size:16px;line-height:1.5;padding:0 0 48px}
 footer.site-footer .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1.2fr auto;gap:32px;padding-top:64px;padding-bottom:32px}
 footer.site-footer .foot-logo{display:block;width:168px;height:auto;margin:0 0 16px}
+footer.site-footer .col span.inert{display:flex;align-items:center;min-height:48px;padding:0;color:var(--silver);font-size:16px;text-decoration:none}
 footer.site-footer .foot-id{font:16px/1.5 "Source Sans 3",sans-serif;color:var(--silver);margin:0}
 .col-head{font:700 16px/1.2 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.06em;color:var(--bone);margin:0 0 12px}
 footer.site-footer .col a{display:flex;align-items:center;min-height:48px;padding:0;color:var(--bone);font-size:16px;line-height:1.4;text-decoration:underline;text-decoration-color:var(--life-hover);text-underline-offset:3px}
