@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="899" height="436" viewBox="0 0 899 436">
+  <title>Black Water line art: Kannon™ Maritime tile (no emblem)</title>
+  <defs>
+    <pattern id="bw_lineart_kannon_maritime_tile-grid" width="48" height="48" patternUnits="userSpaceOnUse" x="1" y="1">
+      <rect width="48" height="1" fill="#26324A" fill-opacity="0.9"/>
+      <rect width="1" height="48" fill="#26324A" fill-opacity="0.9"/>
+    </pattern>
+    <radialGradient id="bw_lineart_kannon_maritime_tile-gridmask-g" cx="0.5" cy="0.4" r="0.7" gradientUnits="objectBoundingBox">
+      <stop offset="0.2" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="bw_lineart_kannon_maritime_tile-gridmask" maskUnits="userSpaceOnUse" x="1" y="1" width="897" height="434">
+      <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_kannon_maritime_tile-gridmask-g)"/>
+    </mask>
+    <radialGradient id="bw_lineart_kannon_maritime_tile-vig" gradientUnits="userSpaceOnUse" cx="449.5" cy="157.23999999999998" r="520.26"
+        gradientTransform="translate(0 157.23999999999998) scale(1 0.5172029369930419) translate(0 -157.23999999999998)">
+      <stop offset="0" stop-color="#0A0A0A" stop-opacity="0"/>
+      <stop offset="0.72" stop-color="#0A0A0A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0A0A0A" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <rect width="899" height="436" rx="6" fill="#0A0A0A"/>
+  <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_kannon_maritime_tile-grid)" mask="url(#bw_lineart_kannon_maritime_tile-gridmask)" opacity="0.2"/>
+  <!-- motif: copied verbatim from cards_render.html #card-maritime .motif -->
+  <svg x="1" y="1" width="897" height="434" viewBox="0 0 899 436" preserveAspectRatio="none" overflow="hidden">
+            <path d="M0 268 Q70 248 140 268 T280 268 T420 268 T560 268 T700 268 T840 268 T980 268"
+                  fill="none" stroke="#F5F2EB" stroke-width="1.6" opacity=".38"/>
+            <path d="M0 300 Q70 278 140 300 T280 300 T420 300 T560 300 T700 300 T840 300 T980 300"
+                  fill="none" stroke="#C2C8D2" stroke-width="2" opacity=".52"/>
+            <path d="M0 332 Q70 312 140 332 T280 332 T420 332 T560 332 T700 332 T840 332 T980 332"
+                  fill="none" stroke="#F5F2EB" stroke-width="2.2" opacity=".62"/>
+            <path d="M0 362 Q70 344 140 362 T280 362 T420 362 T560 362 T700 362 T840 362 T980 362"
+                  fill="none" stroke="#9AA3B2" stroke-width="2" opacity=".55"/>
+            <path d="M0 390 Q70 374 140 390 T280 390 T420 390 T560 390 T700 390 T840 390 T980 390"
+                  fill="none" stroke="#F5F2EB" stroke-width="1.5" opacity=".40"/>
+            <circle cx="449" cy="200" r="90" fill="none" stroke="#9AA3B2" stroke-width="1.2" opacity=".22"/>
+            <circle cx="449" cy="200" r="140" fill="none" stroke="#F5F2EB" stroke-width="1" opacity=".16"/>
+          </svg>
+  <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_kannon_maritime_tile-vig)"/>
+
+  <!-- frame (inset 14 px, accent at 40 %) and four corner brackets (18 px, 2 px) -->
+  <rect x="15.5" y="15.5" width="868" height="405" fill="none" stroke="#F5F2EB" stroke-opacity="0.4" stroke-width="1"/>
+  <g fill="none" stroke="#F5F2EB" stroke-width="2" stroke-linecap="butt">
+    <path d="M16 33 V16 H33"/>
+    <path d="M866 420 H883 V403"/>
+    <path d="M867 15 H884 V32"/>
+    <path d="M15 404 V421 H32"/>
+  </g>
+  <rect x="0.5" y="0.5" width="898" height="435" rx="6" fill="none" stroke="#26324A" stroke-width="1"/>
+</svg>

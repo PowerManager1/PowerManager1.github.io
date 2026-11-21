@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="899" height="436" viewBox="0 0 899 436">
+  <title>Black Water line art: N.O.L.A.N.™ tile (no lockup)</title>
+  <defs>
+    <pattern id="bw_lineart_nolan_tile-grid" width="48" height="48" patternUnits="userSpaceOnUse" x="1" y="1">
+      <rect width="48" height="1" fill="#26324A" fill-opacity="0.9"/>
+      <rect width="1" height="48" fill="#26324A" fill-opacity="0.9"/>
+    </pattern>
+    <radialGradient id="bw_lineart_nolan_tile-gridmask-g" cx="0.5" cy="0.4" r="0.7" gradientUnits="objectBoundingBox">
+      <stop offset="0.2" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="bw_lineart_nolan_tile-gridmask" maskUnits="userSpaceOnUse" x="1" y="1" width="897" height="434">
+      <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_nolan_tile-gridmask-g)"/>
+    </mask>
+    <radialGradient id="bw_lineart_nolan_tile-vig" gradientUnits="userSpaceOnUse" cx="449.5" cy="157.23999999999998" r="520.26"
+        gradientTransform="translate(0 157.23999999999998) scale(1 0.5172029369930419) translate(0 -157.23999999999998)">
+      <stop offset="0" stop-color="#0A0A0A" stop-opacity="0"/>
+      <stop offset="0.72" stop-color="#0A0A0A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0A0A0A" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <rect width="899" height="436" rx="6" fill="#0A0A0A"/>
+  <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_nolan_tile-grid)" mask="url(#bw_lineart_nolan_tile-gridmask)" opacity="0.2"/>
+  <!-- motif: copied verbatim from cards_render.html #card-nolan .motif -->
+  <svg x="1" y="1" width="897" height="434" viewBox="0 0 899 436" preserveAspectRatio="none" overflow="hidden">
+            <g fill="none" stroke="#D9383A" stroke-linejoin="round">
+              <path d="M449 70 L560 134 L560 262 L449 326 L338 262 L338 134 Z" stroke-width="1.6" opacity=".32"/>
+              <path d="M449 100 L530 148 L530 248 L449 296 L368 248 L368 148 Z" stroke-width="1.1" opacity=".20"/>
+              <line x1="120" y1="218" x2="320" y2="218" stroke-width="1.2" opacity=".28"/>
+              <line x1="579" y1="218" x2="779" y2="218" stroke-width="1.2" opacity=".28"/>
+              <circle cx="120" cy="218" r="4" fill="#D9383A" stroke="none" opacity=".55"/>
+              <circle cx="779" cy="218" r="4" fill="#D9383A" stroke="none" opacity=".55"/>
+            </g>
+          </svg>
+  <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_nolan_tile-vig)"/>
+
+  <!-- frame (inset 14 px, accent at 40 %) and four corner brackets (18 px, 2 px) -->
+  <rect x="15.5" y="15.5" width="868" height="405" fill="none" stroke="#D9383A" stroke-opacity="0.4" stroke-width="1"/>
+  <g fill="none" stroke="#D9383A" stroke-width="2" stroke-linecap="butt">
+    <path d="M16 33 V16 H33"/>
+    <path d="M866 420 H883 V403"/>
+    <path d="M867 15 H884 V32"/>
+    <path d="M15 404 V421 H32"/>
+  </g>
+  <rect x="0.5" y="0.5" width="898" height="435" rx="6" fill="none" stroke="#26324A" stroke-width="1"/>
+</svg>
