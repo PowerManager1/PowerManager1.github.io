@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="899" height="436" viewBox="0 0 899 436">
+  <title>Black Water line art: Kannon™ Ground tile (no emblem)</title>
+  <defs>
+    <pattern id="bw_lineart_kannon_ground_tile-grid" width="48" height="48" patternUnits="userSpaceOnUse" x="1" y="1">
+      <rect width="48" height="1" fill="#26324A" fill-opacity="0.9"/>
+      <rect width="1" height="48" fill="#26324A" fill-opacity="0.9"/>
+    </pattern>
+    <radialGradient id="bw_lineart_kannon_ground_tile-gridmask-g" cx="0.5" cy="0.4" r="0.7" gradientUnits="objectBoundingBox">
+      <stop offset="0.2" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="bw_lineart_kannon_ground_tile-gridmask" maskUnits="userSpaceOnUse" x="1" y="1" width="897" height="434">
+      <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_kannon_ground_tile-gridmask-g)"/>
+    </mask>
+    <radialGradient id="bw_lineart_kannon_ground_tile-vig" gradientUnits="userSpaceOnUse" cx="449.5" cy="157.23999999999998" r="520.26"
+        gradientTransform="translate(0 157.23999999999998) scale(1 0.5172029369930419) translate(0 -157.23999999999998)">
+      <stop offset="0" stop-color="#0A0A0A" stop-opacity="0"/>
+      <stop offset="0.72" stop-color="#0A0A0A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0A0A0A" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <rect width="899" height="436" rx="6" fill="#0A0A0A"/>
+  <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_kannon_ground_tile-grid)" mask="url(#bw_lineart_kannon_ground_tile-gridmask)" opacity="0.2"/>
+  <!-- motif: copied verbatim from cards_render.html #card-ground .motif -->
+  <svg x="1" y="1" width="897" height="434" viewBox="0 0 899 436" preserveAspectRatio="none" overflow="hidden">
+            <!-- sketched forest / treeline silhouette — stronger, still behind the mark -->
+            <g fill="none" stroke="#D9383A" stroke-linecap="round" stroke-linejoin="round" opacity=".58">
+              <!-- far row (dimmer via thinner strokes) -->
+              <g stroke-width="1.35" opacity=".85">
+                <path d="M62 268 L70 230 L78 268"/>
+                <path d="M70 248 L62 248 M70 248 L78 248"/>
+                <path d="M98 272 L108 218 L118 272"/>
+                <path d="M108 248 L96 248 M108 236 L100 236 M108 236 L116 236"/>
+                <path d="M140 270 L148 238 L156 270"/>
+                <path d="M180 274 L192 210 L204 274"/>
+                <path d="M192 246 L178 246 M192 230 L184 230 M192 230 L200 230 M192 220 L186 220 M192 220 L198 220"/>
+                <path d="M230 268 L238 242 L246 268"/>
+                <path d="M268 272 L278 220 L288 272"/>
+                <path d="M278 248 L266 248 M278 234 L270 234 M278 234 L286 234"/>
+                <path d="M310 270 L318 244 L326 270"/>
+                <path d="M350 274 L362 208 L374 274"/>
+                <path d="M362 244 L348 244 M362 228 L354 228 M362 228 L370 228 M362 218 L356 218 M362 218 L368 218"/>
+                <path d="M400 268 L408 240 L416 268"/>
+                <path d="M440 272 L450 216 L460 272"/>
+                <path d="M450 246 L438 246 M450 232 L442 232 M450 232 L458 232"/>
+                <path d="M490 270 L498 244 L506 270"/>
+                <path d="M530 274 L542 206 L554 274"/>
+                <path d="M542 242 L528 242 M542 226 L534 226 M542 226 L550 226 M542 216 L536 216 M542 216 L548 216"/>
+                <path d="M580 268 L588 238 L596 268"/>
+                <path d="M620 272 L630 218 L640 272"/>
+                <path d="M630 246 L618 246 M630 232 L622 232 M630 232 L638 232"/>
+                <path d="M670 270 L678 244 L686 270"/>
+                <path d="M710 274 L722 210 L734 274"/>
+                <path d="M722 244 L708 244 M722 228 L714 228 M722 228 L730 228 M722 218 L716 218 M722 218 L728 218"/>
+                <path d="M760 268 L768 240 L776 268"/>
+                <path d="M800 272 L810 222 L820 272"/>
+                <path d="M810 248 L798 248 M810 234 L802 234 M810 234 L818 234"/>
+                <path d="M840 270 L848 246 L856 270"/>
+              </g>
+              <!-- near row — slightly stronger sketch strokes, irregular trunks -->
+              <g stroke-width="1.7" opacity="1">
+                <path d="M48 300 L56 252 L64 300"/>
+                <path d="M56 278 L46 278 M56 264 L50 264 M56 264 L62 264"/>
+                <path d="M86 304 L98 236 L110 304"/>
+                <path d="M98 276 L84 276 M98 258 L88 258 M98 258 L108 258 M98 246 L90 246 M98 246 L106 246"/>
+                <!-- rough sketched fir, slightly crooked -->
+                <path d="M128 298 L134 270 L140 298"/>
+                <path d="M134 286 L126 286 M134 278 L128 278 M134 278 L140 278"/>
+                <path d="M160 306 L174 228 L188 306"/>
+                <path d="M174 278 L158 278 M174 258 L162 258 M174 258 L186 258 M174 244 L164 244 M174 244 L184 244 M174 236 L166 236 M174 236 L182 236"/>
+                <path d="M210 300 L218 262 L226 300"/>
+                <path d="M218 284 L208 284 M218 272 L212 272 M218 272 L224 272"/>
+                <path d="M248 304 L260 232 L272 304"/>
+                <path d="M260 276 L246 276 M260 256 L248 256 M260 256 L272 256 M260 242 L250 242 M260 242 L270 242"/>
+                <path d="M296 298 L304 268 L312 298"/>
+                <path d="M304 286 L296 286 M304 276 L298 276 M304 276 L310 276"/>
+                <path d="M330 306 L344 224 L358 306"/>
+                <path d="M344 276 L328 276 M344 254 L332 254 M344 254 L356 254 M344 240 L334 240 M344 240 L354 240 M344 232 L336 232 M344 232 L352 232"/>
+                <path d="M384 300 L392 264 L400 300"/>
+                <path d="M392 284 L382 284 M392 272 L386 272 M392 272 L398 272"/>
+                <path d="M420 304 L432 230 L444 304"/>
+                <path d="M432 276 L418 276 M432 256 L420 256 M432 256 L444 256 M432 242 L422 242 M432 242 L442 242"/>
+                <path d="M470 298 L478 266 L486 298"/>
+                <path d="M478 284 L470 284 M478 274 L472 274 M478 274 L484 274"/>
+                <path d="M508 306 L522 220 L536 306"/>
+                <path d="M522 274 L506 274 M522 252 L510 252 M522 252 L534 252 M522 238 L512 238 M522 238 L532 238 M522 228 L514 228 M522 228 L530 228"/>
+                <path d="M564 300 L572 260 L580 300"/>
+                <path d="M572 282 L562 282 M572 270 L566 270 M572 270 L578 270"/>
+                <path d="M600 304 L612 228 L624 304"/>
+                <path d="M612 274 L598 274 M612 254 L600 254 M612 254 L624 254 M612 240 L602 240 M612 240 L622 240"/>
+                <path d="M650 298 L658 268 L666 298"/>
+                <path d="M658 286 L650 286 M658 276 L652 276 M658 276 L664 276"/>
+                <path d="M688 306 L702 222 L716 306"/>
+                <path d="M702 274 L686 274 M702 252 L690 252 M702 252 L714 252 M702 238 L692 238 M702 238 L712 238 M702 228 L694 228 M702 228 L710 228"/>
+                <path d="M744 300 L752 262 L760 300"/>
+                <path d="M752 284 L742 284 M752 272 L746 272 M752 272 L758 272"/>
+                <path d="M780 304 L792 234 L804 304"/>
+                <path d="M792 276 L778 276 M792 256 L780 256 M792 256 L804 256 M792 244 L782 244 M792 244 L802 244"/>
+                <path d="M830 298 L838 270 L846 298"/>
+                <path d="M838 286 L830 286 M838 278 L832 278 M838 278 L844 278"/>
+                <path d="M864 302 L874 248 L884 302"/>
+                <path d="M874 280 L862 280 M874 264 L866 264 M874 264 L882 264"/>
+              </g>
+              <!-- loose sketchy undergrowth / ground strokes -->
+              <g stroke-width="0.9" opacity=".55">
+                <path d="M40 312 C90 308, 140 316, 190 310 S290 304, 340 312 S440 318, 490 308 S590 302, 640 310 S740 316, 860 308"/>
+                <path d="M55 318 C120 314, 200 320, 280 316"/>
+                <path d="M520 318 C600 314, 700 320, 820 315"/>
+              </g>
+            </g>
+
+            <path d="M40 340 C140 320, 200 360, 300 335 S480 290, 560 310 S700 360, 820 330 S880 300, 900 310"
+                  fill="none" stroke="#D9383A" stroke-width="1.8" opacity=".55"/>
+            <path d="M30 370 C130 350, 190 390, 290 365 S470 320, 550 340 S690 390, 810 360 S880 330, 900 340"
+                  fill="none" stroke="#F5F2EB" stroke-width="1.2" opacity=".28"/>
+            <path d="M50 300 C150 280, 210 320, 310 295 S490 250, 570 270 S710 320, 830 290"
+                  fill="none" stroke="#D9383A" stroke-width="1.5" opacity=".42"/>
+          </svg>
+  <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_kannon_ground_tile-vig)"/>
+
+  <!-- frame (inset 14 px, accent at 40 %) and four corner brackets (18 px, 2 px) -->
+  <rect x="15.5" y="15.5" width="868" height="405" fill="none" stroke="#D9383A" stroke-opacity="0.4" stroke-width="1"/>
+  <g fill="none" stroke="#D9383A" stroke-width="2" stroke-linecap="butt">
+    <path d="M16 33 V16 H33"/>
+    <path d="M866 420 H883 V403"/>
+    <path d="M867 15 H884 V32"/>
+    <path d="M15 404 V421 H32"/>
+  </g>
+  <rect x="0.5" y="0.5" width="898" height="435" rx="6" fill="none" stroke="#26324A" stroke-width="1"/>
+</svg>

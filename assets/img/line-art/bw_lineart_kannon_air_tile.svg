@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="899" height="436" viewBox="0 0 899 436">
+  <title>Black Water line art: Kannon™ Air tile (no emblem)</title>
+  <defs>
+    <pattern id="bw_lineart_kannon_air_tile-grid" width="48" height="48" patternUnits="userSpaceOnUse" x="1" y="1">
+      <rect width="48" height="1" fill="#26324A" fill-opacity="0.9"/>
+      <rect width="1" height="48" fill="#26324A" fill-opacity="0.9"/>
+    </pattern>
+    <radialGradient id="bw_lineart_kannon_air_tile-gridmask-g" cx="0.5" cy="0.4" r="0.7" gradientUnits="objectBoundingBox">
+      <stop offset="0.2" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="bw_lineart_kannon_air_tile-gridmask" maskUnits="userSpaceOnUse" x="1" y="1" width="897" height="434">
+      <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_kannon_air_tile-gridmask-g)"/>
+    </mask>
+    <radialGradient id="bw_lineart_kannon_air_tile-vig" gradientUnits="userSpaceOnUse" cx="449.5" cy="157.23999999999998" r="520.26"
+        gradientTransform="translate(0 157.23999999999998) scale(1 0.5172029369930419) translate(0 -157.23999999999998)">
+      <stop offset="0" stop-color="#0A0A0A" stop-opacity="0"/>
+      <stop offset="0.72" stop-color="#0A0A0A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0A0A0A" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <rect width="899" height="436" rx="6" fill="#0A0A0A"/>
+  <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_kannon_air_tile-grid)" mask="url(#bw_lineart_kannon_air_tile-gridmask)" opacity="0.2"/>
+  <!-- motif: copied verbatim from cards_render.html #card-air .motif -->
+  <svg x="1" y="1" width="897" height="434" viewBox="0 0 899 436" preserveAspectRatio="none" overflow="hidden">
+            <!-- altitude lines -->
+            <g stroke="#C45C26" stroke-width="1.7" fill="none" opacity=".55">
+              <line x1="80" y1="70" x2="819" y2="70"/>
+              <line x1="110" y1="110" x2="789" y2="110"/>
+              <line x1="140" y1="150" x2="759" y2="150"/>
+            </g>
+            <g stroke="#E0763D" stroke-width="1.5" fill="none" opacity=".42">
+              <line x1="160" y1="190" x2="739" y2="190"/>
+              <line x1="190" y1="228" x2="709" y2="228"/>
+            </g>
+            <path d="M160 340 A290 290 0 0 1 739 340" fill="none" stroke="#C45C26" stroke-width="2" opacity=".48"/>
+            <path d="M210 355 A240 240 0 0 1 689 355" fill="none" stroke="#E0763D" stroke-width="1.6" opacity=".36"/>
+            <path d="M80 300 L140 268 L200 300 L260 272 L320 300 L380 266 L440 300 L500 270 L560 300 L620 268 L680 300 L740 272 L819 300" fill="none" stroke="#C45C26" stroke-width="1.4" opacity=".28"/>
+          </svg>
+  <rect x="1" y="1" width="897" height="434" fill="url(#bw_lineart_kannon_air_tile-vig)"/>
+
+  <!-- frame (inset 14 px, accent at 40 %) and four corner brackets (18 px, 2 px) -->
+  <rect x="15.5" y="15.5" width="868" height="405" fill="none" stroke="#C45C26" stroke-opacity="0.4" stroke-width="1"/>
+  <g fill="none" stroke="#C45C26" stroke-width="2" stroke-linecap="butt">
+    <path d="M16 33 V16 H33"/>
+    <path d="M866 420 H883 V403"/>
+    <path d="M867 15 H884 V32"/>
+    <path d="M15 404 V421 H32"/>
+  </g>
+  <rect x="0.5" y="0.5" width="898" height="435" rx="6" fill="none" stroke="#26324A" stroke-width="1"/>
+</svg>
