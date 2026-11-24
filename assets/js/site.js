@@ -1,13 +1,9 @@
 /* BW_FORM_ENDPOINT
-   Single public config value for the briefing form. Do not put a secret here.
-   To deliver submissions to info@blackwater-industry.com, create a Formspree
-   form and set this to its URL, for example "https://formspree.io/f/xxxxxxxx".
-   That is the account this page expects: a Formspree form (form id only).
-   Web3Forms needs an access_key, which is intentionally not used.
-   Cloudflare Turnstile is not wired up; it would need a Turnstile site key.
+   Public Formspree URL for the form "Black Water Briefing Requests".
+   It delivers to info@blackwater-industry.com. The form id is public.
    Leave the string empty and the form opens the visitor's email app instead.
 */
-var BW_FORM_ENDPOINT = "";
+var BW_FORM_ENDPOINT = "https://formspree.io/f/mbgoqzeo";
 
 (function () {
   var drawer = document.querySelector(".nav-drawer");
@@ -126,7 +122,7 @@ var BW_FORM_ENDPOINT = "";
       return;
     }
 
-    if (field("bw_hp")) {
+    if (field("_gotcha")) {
       form.classList.add("is-sent");
       if (fields) fields.hidden = true;
       showStatus("Thank you. Your briefing request was sent. We will reply to the email address you entered.", false);
@@ -158,6 +154,7 @@ var BW_FORM_ENDPOINT = "";
     data.append("message", message);
     data.append("_subject", "Briefing request: " + topic);
     data.append("_replyto", email);
+    data.append("_gotcha", field("_gotcha"));
 
     if (submit) {
       submit.disabled = true;
@@ -171,10 +168,12 @@ var BW_FORM_ENDPOINT = "";
       headers: { "Accept": "application/json" },
       signal: ctrl.signal
     }).then(function (response) {
-      if (!response.ok) throw new Error("status " + response.status);
-      form.classList.add("is-sent");
-      if (fields) fields.hidden = true;
-      showStatus("Thank you. Your briefing request was sent. We will reply to the email address you entered.", false);
+      return response.json().catch(function () { return {}; }).then(function (body) {
+        if (!response.ok || body.ok === false || body.error) throw new Error("status " + response.status);
+        form.classList.add("is-sent");
+        if (fields) fields.hidden = true;
+        showStatus("Thank you. Your briefing request was sent. We will reply to the email address you entered.", false);
+      });
     }).catch(function () {
       showStatus("We could not send the form. Email " + MAIL + ", or try again.", true);
       if (submit) {
